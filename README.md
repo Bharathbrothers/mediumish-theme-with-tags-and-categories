@@ -95,5 +95,5 @@ Thank you so much for your contribution!
 
 -----------------
 
-[Live Demo](https://github.com/Bharathbrothers/mediumish-theme-with-tags-and-categories) &nbsp; | &nbsp; [Download](https://github.com/Bharathbrothers/mediumish-theme-with-tags-and-categories/archive/master.zip)
+[Live Demo](http://bharathsathuri.me/mediumish-theme-with-tags-and-categories/) &nbsp; | &nbsp; [Download](https://github.com/Bharathbrothers/mediumish-theme-with-tags-and-categories/archive/master.zip)
 
