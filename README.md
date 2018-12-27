@@ -83,7 +83,7 @@ Copyright (C) 2018 WowThemes.net.
 
 **Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
 
-**Tags and Categories taken from Codinfox ** [Codinfox](https://github.com/codinfox/codinfox-lanyon)
+**Tags and Categories taken from Codinfox** [Codinfox](https://github.com/codinfox/codinfox-lanyon)
 
 ### Contribute
 
