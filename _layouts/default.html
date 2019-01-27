@@ -22,6 +22,22 @@
     
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 	
+	<!-- firebase-->
+<script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCFUxkyLYmC11mRZpmvv1Z1tPYWx-bzmlQ",
+    authDomain: "blog-democms.firebaseapp.com",
+    databaseURL: "https://blog-democms.firebaseio.com",
+    projectId: "blog-democms",
+    storageBucket: "",
+    messagingSenderId: "850864846421"
+  };
+  firebase.initializeApp(config);
+</script>
+	
+	
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130596728-1"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
