@@ -22,6 +22,25 @@
     
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 	
+	<!-- firebase-->
+<script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCFUxkyLYmC11mRZpmvv1Z1tPYWx-bzmlQ",
+    authDomain: "blog-democms.firebaseapp.com",
+    databaseURL: "https://blog-democms.firebaseio.com",
+    projectId: "blog-democms",
+    storageBucket: "",
+    messagingSenderId: "850864846421"
+  };
+  firebase.initializeApp(config);
+</script>
+	<!-- fire ui-->
+<script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
+	
+	
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130596728-1"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
@@ -171,6 +190,14 @@ input[type=text]:focus {
                 <li class="nav-item">
                 {% endif %}
                 <a class="nav-link" href="{{ site.baseurl }}/tags.html">Tags</a>
+                </li>
+		    
+		{% if page.url == "/authui.html" %}
+                <li class="nav-item active">
+                {% else %}
+                <li class="nav-item">
+                {% endif %}
+                <a class="nav-link" href="{{ site.baseurl }}/authui.html">Login/SignUp</a>
                 </li>
                 
             </ul>		
